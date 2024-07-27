@@ -8,6 +8,8 @@ services:
       - "8001:8000"
     volumes:
       - .:/app
+    depends_on:
+      - postgres
 
   postgres:
     image: postgres
