@@ -12,3 +12,13 @@ def count_task():
         time.sleep(1)
     logger.info("Task completed!")
     return 'Task Done!'
+
+
+@shared_task(name='send_newsletter')  
+def send_newsletter():
+    logger.info("Task started: Sending Newsletters")      
+    for i in range(1, 11):
+        logger.info(f'{i}. Newsletter')
+        time.sleep(1)
+    logger.info("All Newsletter sent!")       
+    return 'Completed!'
