@@ -1,3 +1,4 @@
-Docker Compose File: https://github.com/andyjud/docker/blob/main/docker-compose-3.yml
+docker-compose.yml: https://github.com/andyjud/docker/blob/main/docker-compose-3.yml
 <br>
-Entrypoint.sh: https://github.com/andyjud/docker/blob/main/entrypoint.sh
+<br>
+entrypoint.sh: https://github.com/andyjud/docker/blob/main/entrypoint.sh
